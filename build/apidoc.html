@@ -51,7 +51,7 @@
 
         href="https://github.com/nodejs/readable-stream#readme"
 
-    >readable-stream (v2.2.6)</a>
+    >readable-stream (v2.2.9)</a>
 </h1>
 <h4>Streams3, a user-land copy of the stream library from Node.js</h4>
 <div class="apidocSectionDiv"><a
@@ -60,6 +60,15 @@
 ><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.readable-stream">module readable-stream</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.readable-stream.readable-stream">
+            function <span class="apidocSignatureSpan"></span>readable-stream
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
 
         <li>
 
@@ -146,6 +155,15 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.readable-stream.super_">
             function <span class="apidocSignatureSpan">readable-stream.</span>super_
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.readable-stream.toString">
+            function <span class="apidocSignatureSpan">readable-stream.</span>toString
             <span class="apidocSignatureSpan">()</span>
             </a>
 
@@ -500,6 +518,32 @@
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.readable-stream" id="apidoc.module.readable-stream">module readable-stream</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.readable-stream.readable-stream" id="apidoc.element.readable-stream.readable-stream">
+        function <span class="apidocSignatureSpan"></span>readable-stream
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Readable(options) {
+  Duplex = Duplex || require(&#x27;./_stream_duplex&#x27;);
+
+  if (!(this instanceof Readable)) return new Readable(options);
+
+  this._readableState = new ReadableState(options, this);
+
+  // legacy
+  this.readable = true;
+
+  if (options &#x26;&#x26; typeof options.read === &#x27;function&#x27;) this._read = options.read;
+
+  Stream.call(this);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 
     <h2>
@@ -893,6 +937,21 @@
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function Stream() {
   EE.call(this);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.readable-stream.toString" id="apidoc.element.readable-stream.toString">
+        function <span class="apidocSignatureSpan">readable-stream.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">toString = function () {
+    return toString;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>

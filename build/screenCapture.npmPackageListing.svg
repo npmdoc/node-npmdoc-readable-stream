@@ -1,23 +1,28 @@
-<svg height="318" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="318" fill="#555" width="720"></rect>
+<svg height="398" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="398" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  0.  2017-04-03 13:32:51 +0000    73326 byte  .</tspan>
-<tspan x="10" y="42">  1.  2017-04-03 13:32:51 +0000     1443 byte  CONTRIBUTING.md</tspan>
-<tspan x="10" y="58">  2.  2017-04-03 13:32:51 +0000     5550 byte  GOVERNANCE.md</tspan>
-<tspan x="10" y="74">  3.  2017-04-03 13:32:51 +0000     2337 byte  LICENSE</tspan>
-<tspan x="10" y="90">  4.  2017-04-03 13:32:51 +0000     2897 byte  README.md</tspan>
-<tspan x="10" y="106">  5.  2017-04-03 13:32:51 +0000     2280 byte  doc/wg-meetings/2015-01-30.md</tspan>
-<tspan x="10" y="122">  6.  2017-04-03 13:32:51 +0000       52 byte  duplex.js</tspan>
-<tspan x="10" y="138">  7.  2017-04-03 13:32:51 +0000     1848 byte  lib/_stream_duplex.js</tspan>
-<tspan x="10" y="154">  8.  2017-04-03 13:32:51 +0000      604 byte  lib/_stream_passthrough.js</tspan>
-<tspan x="10" y="170">  9.  2017-04-03 13:32:51 +0000    28259 byte  lib/_stream_readable.js</tspan>
-<tspan x="10" y="186"> 10.  2017-04-03 13:32:51 +0000     6451 byte  lib/_stream_transform.js</tspan>
-<tspan x="10" y="202"> 11.  2017-04-03 13:32:51 +0000    15874 byte  lib/_stream_writable.js</tspan>
-<tspan x="10" y="218"> 12.  2017-04-03 13:32:51 +0000     1458 byte  lib/internal/streams/BufferList.js</tspan>
-<tspan x="10" y="234"> 13.  2017-04-03 13:32:51 +0000     3477 byte  package.json</tspan>
-<tspan x="10" y="250"> 14.  2017-04-03 13:32:51 +0000       57 byte  passthrough.js</tspan>
-<tspan x="10" y="266"> 15.  2017-04-03 13:32:51 +0000      630 byte  readable.js</tspan>
-<tspan x="10" y="282"> 16.  2017-04-03 13:32:51 +0000       55 byte  transform.js</tspan>
-<tspan x="10" y="298"> 17.  2017-04-03 13:32:51 +0000       54 byte  writable.js</tspan>
+<tspan x="10" y="26">  0.  2017-04-16 08:41:41 +0000    74144 bytes  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-16 08:41:41 +0000     1443 bytes  CONTRIBUTING.md</tspan>
+<tspan x="10" y="58">  2.  2017-04-16 08:41:41 +0000     5550 bytes  GOVERNANCE.md</tspan>
+<tspan x="10" y="74">  3.  2017-04-16 08:41:41 +0000     2337 bytes  LICENSE</tspan>
+<tspan x="10" y="90">  4.  2017-04-16 08:41:41 +0000     2897 bytes  README.md</tspan>
+<tspan x="10" y="106">  5.  2017-04-16 08:41:41 +0000     2280 bytes  doc/wg-meetings/2015-01-30.md</tspan>
+<tspan x="10" y="122">  6.  2017-04-16 08:41:41 +0000       53 bytes  duplex-browser.js</tspan>
+<tspan x="10" y="138">  7.  2017-04-16 08:41:41 +0000       46 bytes  duplex.js</tspan>
+<tspan x="10" y="154">  8.  2017-04-16 08:41:41 +0000     1848 bytes  lib/_stream_duplex.js</tspan>
+<tspan x="10" y="170">  9.  2017-04-16 08:41:41 +0000      604 bytes  lib/_stream_passthrough.js</tspan>
+<tspan x="10" y="186"> 10.  2017-04-16 08:41:41 +0000    28188 bytes  lib/_stream_readable.js</tspan>
+<tspan x="10" y="202"> 11.  2017-04-16 08:41:41 +0000     6451 bytes  lib/_stream_transform.js</tspan>
+<tspan x="10" y="218"> 12.  2017-04-16 08:41:41 +0000    15758 bytes  lib/_stream_writable.js</tspan>
+<tspan x="10" y="234"> 13.  2017-04-16 08:41:41 +0000     1458 bytes  lib/internal/streams/BufferList.js</tspan>
+<tspan x="10" y="250"> 14.  2017-04-16 08:41:41 +0000       49 bytes  lib/internal/streams/stream-browser.js</tspan>
+<tspan x="10" y="266"> 15.  2017-04-16 08:41:41 +0000       36 bytes  lib/internal/streams/stream.js</tspan>
+<tspan x="10" y="282"> 16.  2017-04-16 08:41:41 +0000     3650 bytes  package.json</tspan>
+<tspan x="10" y="298"> 17.  2017-04-16 08:41:41 +0000       51 bytes  passthrough.js</tspan>
+<tspan x="10" y="314"> 18.  2017-04-16 08:41:41 +0000      351 bytes  readable-browser.js</tspan>
+<tspan x="10" y="330"> 19.  2017-04-16 08:41:41 +0000      771 bytes  readable.js</tspan>
+<tspan x="10" y="346"> 20.  2017-04-16 08:41:41 +0000       49 bytes  transform.js</tspan>
+<tspan x="10" y="362"> 21.  2017-04-16 08:41:41 +0000       55 bytes  writable-browser.js</tspan>
+<tspan x="10" y="378"> 22.  2017-04-16 08:41:41 +0000      219 bytes  writable.js</tspan>
 </text>
 </svg>
